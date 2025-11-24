@@ -5,6 +5,7 @@ It allows users to quickly capture their ideas with text or voice, powered by a 
 
 A key highlight of the application is the Voice-to-Text functionality, allowing hands-free note creation by converting speech into text automatically.
 
+
 ✨ Features
 
 📝 Create, Read, Update, and Delete notes
@@ -23,17 +24,18 @@ A key highlight of the application is the Voice-to-Text functionality, allowing 
 
 📍 Clean & minimalist Material UI
 
+
 🧰 Tech Stack & Libraries
 
-Language
+->Language
 
 Kotlin
 
-Architecture
+->Architecture
 
 MVVM (ViewModel, LiveData, Repository)
 
-UI
+->UI
 
 Data Binding
 
@@ -43,33 +45,36 @@ RecyclerView + CardView
 
 SearchView
 
-Storage
+->Storage
 
 Room Database
 
-Async
+->Async
 
 Kotlin Coroutines
 
-Navigation
+->Navigation
 
 Navigation Component + Safe Args
 
-AI
+->AI
 
 Google Gemini 2.5 Pro (Speech-to-text + summarization)
+
 
 🚀 Getting Started
 
 Follow these steps to run the project locally.
 
-Prerequisites
+
+->Prerequisites
 
 Android Studio Iguana (2023.2.1) or newer
 
 Android device/emulator running API 26+
 
-Installation
+
+->Installation
 
 Clone the repository
 
@@ -90,12 +95,13 @@ Wait for Gradle sync
 
 Press ▶ Run
 
+
 🔑 Required Permissions
 
 The application requires these permissions:
 
-android.permission.RECORD_AUDIO
 android.permission.INTERNET
+
 
 📸 Screenshots
 
@@ -106,6 +112,7 @@ Example:
 /screenshots/home.png
 /screenshots/record.png
 /screenshots/details.png
+
 
 🔮 Future Enhancements
 
@@ -120,6 +127,7 @@ Export as PDF
 Reminders + Notifications
 
 Multi-language transcription
+
 
 👤 Author
 
