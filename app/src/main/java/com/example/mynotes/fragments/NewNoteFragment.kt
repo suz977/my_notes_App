@@ -40,7 +40,7 @@ class NewNoteFragment : Fragment(R.layout.fragment_new_note) {
     private val generativeModel by lazy {
         GenerativeModel(
             modelName = "gemini-2.5-pro",
-            apiKey = "AIzaSyBh3h2RSQ7mYRBUz5iZREzbDDG5EE-KeCk"
+            apiKey = BuildConfig.GEMINI_API
         )
     }
 
